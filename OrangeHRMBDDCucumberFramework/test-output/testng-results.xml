@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-03T17:26:09 IST" name="Default suite" finished-at="2021-09-03T17:26:21 IST" duration-ms="11656">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.OrangeHRMTestRunner@6356695f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-09-03T17:26:09 IST" name="Default test" finished-at="2021-09-03T17:26:21 IST" duration-ms="11656">
+      <class name="com.TestRunner.OrangeHRMTestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.TestRunner.OrangeHRMTestRunner@6356695f]" started-at="2021-09-03T17:26:09 IST" name="setUpClass" finished-at="2021-09-03T17:26:10 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.OrangeHRMTestRunner@6356695f]" started-at="2021-09-03T17:26:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-03T17:26:21 IST" duration-ms="10351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Orange HRM Login Test Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Orange HRM Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.OrangeHRMTestRunner@6356695f]" started-at="2021-09-03T17:26:21 IST" name="tearDownClass" finished-at="2021-09-03T17:26:21 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.TestRunner.OrangeHRMTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
